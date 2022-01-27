@@ -5,15 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="src/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <title>The JavaScript Resource</title>
 </head>
 
 <body>
     <!-- Header -->
-    <header>
-        <nav class="nav container" id='nav'>
+    <header class="header" id="header">
+        <nav class="nav nav-container" id='nav'>
             <a href="#" class="logo">JS Resource</a>
             <div class="nav-mobile">
                 <ul class="nav-list">
@@ -21,18 +23,22 @@
                         <a href="#" class="nav-link current">Home</a>
                     </li>
                     <li class="nav-items">
-                        <a href="#" class="nav-link current">About</a>
+                        <a href="#" class="nav-link">About</a>
                     </li>
                     <li class="nav-items">
-                        <a href="#" class="nav-link current">JavaScript</a>
+                        <a href="#" class="nav-link">JavaScript</a>
                     </li>
                     <li class="nav-items">
-                        <a href="#" class="nav-link current">External Resources</a>
+                        <a href="#" class="nav-link">External Resources</a>
                     </li>
                     <li class="nav-items">
-                        <a href="#" class="nav-link current">Contact Us</a>
+                        <a href="#" class="nav-link">Contact Us</a>
                     </li>
                 </ul>
+            </div>
+            <div class="menu-toggler lg-hidden center-items" id="menu-toggler">
+                <i class="ri-menu-3-line menu-open"></i>
+                <i class="ri-close-fill menu-close"></i>
             </div>
         </nav>
     </header>
